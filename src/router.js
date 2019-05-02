@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import ListArticle from './views/ListArticle.vue'
-import CreateArticle from './views/CreateArticle.vue'
+import ListArticle from './views/ListArticle'
+import CreateArticle from './views/CreateArticle'
 Vue.use(Router)
 export default new Router({
   routes: [{
